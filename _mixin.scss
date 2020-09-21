@@ -1,0 +1,31 @@
+@mixin  story{
+    position: relative;
+}
+
+@mixin en1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    width: 150px;
+    height: 50px;
+
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+@mixin ch1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+
+    width: 150px;
+      height: 50px;
+
+    transition: opacity .3s;
+    opacity: 0;
+}

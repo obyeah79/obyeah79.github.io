@@ -1,0 +1,14 @@
+@import "./mixin";
+
+*{
+    box-sizing: $border-box;
+}
+
+.story{
+    @include story{   
+        .en1{ 
+    @include en1;}
+        .ch1{ 
+    @include ch1;} 
+     
+ }}
