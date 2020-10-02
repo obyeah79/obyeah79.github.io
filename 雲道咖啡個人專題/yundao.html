@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/雲道咖啡個人專題/雲道咖啡.css">
+</head>
+
+<body>
+    <header>
+
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand "><img width="60%" src="/雲道咖啡個人專題/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-around" id="navbarNavAltMarkup">
+                <div class="navbar-nav narbar">
+                    <a class="nav-item nav-link mr-lg-5 story allrelative" href="#">
+                        <span class="en1 allen">STORY</span>
+                        <span class="ch1 allch">雲道故事</span>
+                    </a>
+                    <a class="nav-item nav-link mr-lg-5 process allrelative" href="#">
+                        <span class="en2 allen">PROCESS</span>
+                        <span class="ch2 allch">咖啡製成</span>
+                    </a>
+                    <a class="nav-item nav-link mr-lg-5 menu allrelative" href="#">
+                        <span class="en3 allen">MENU</span>
+                        <span class="ch3 allch">菜單</span></a>
+                    <a class="nav-item nav-link mr-lg-5 product allrelative" href="#">
+                        <span class="en4 allen">PRODUCT</span>
+                        <span class="ch4 allch">產品</span>
+                    </a>
+                    <a class="nav-item nav-link mr-lg-5 news allrelative" href="#">
+                        <span class="en5 allen">NEWS</span>
+                        <span class="ch5 allch">最新消息</span>
+                    </a>
+                    <a class="nav-item nav-link mr-lg-5 store allrelative" href="#">
+                        <span class="en6 allen">STORE</span>
+                        <span class="ch6 allch">門市</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+
+    <script>
+        function hoverHandler(container, css1, css2) {
+            $(container).hover(function () {
+                $(css1).css("opacity", "1");
+                $(css2).css("opacity", "0");
+            }, function () {
+                $(css1).css("opacity", "0");
+                $(css2).css("opacity", "1");
+            });
+        }
+
+        hoverHandler(".story", ".ch1", ".en1")
+        hoverHandler(".process", ".ch2", ".en2")
+        hoverHandler(".menu", ".ch3", ".en3")
+        hoverHandler(".product", ".ch4", ".en4")
+        hoverHandler(".news", ".ch5", ".en5")
+        hoverHandler(".store", ".ch6", ".en6")
+
+        
+        
+        
+
+        // $(".story").hover(function () {
+
+        //     $(".ch1").css("opacity", "1");
+        //     $(".en1").css("opacity", "0");
+
+        // }, function () {
+
+        //     $(".ch1").css("opacity", "0");
+        //     $(".en1").css("opacity", "1");
+
+        // });
+
+        // $(".process").hover(function () {
+
+        //     $(".ch2").css("opacity", "1");
+        //     $(".en2").css("opacity", "0");
+
+        // }, function () {
+
+        //     $(".ch2").css("opacity", "0");
+        //     $(".en2").css("opacity", "1");
+
+        // });
+    </script>
+</body>
+
+</html>
