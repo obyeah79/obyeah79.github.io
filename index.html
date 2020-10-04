@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>雲道咖啡</title>
 
 <head>
     <meta charset="UTF-8">
@@ -17,8 +18,8 @@
 
 <body>
     <header>
-        <div class="banner">
-            <!-- Swiper -->
+        <div id="top" class="banner">
+            <!-- bootstoptrap輪播 -->
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-interval="100">
@@ -38,45 +39,8 @@
                 </a>
             </div>
 
-            <!--nav-->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container navcontainer">
-                    <a class="navbar-brand "><img width="55%" src="雲道圖片/logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-lg-around" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link ml-lg-5 mr-lg-5 story text-lg-center allrelative" href="#aboutall">
-                                <span class="en1 allen ">STORY</span>
-                                <span class="ch1 allch">雲道故事</span>
-                            </a>
-                            <a class="nav-item nav-link mr-lg-5 process text-lg-center allrelative " href="#">
-                                <span class="en2 allen">PROCESS</span>
-                                <span class="ch2 allch">咖啡製成</span>
-                            </a>
-                            <a class="nav-item nav-link mr-lg-5 menu text-lg-center allrelative" href="#">
-                                <span class="en3 allen">MENU</span>
-                                <span class="ch3 allch">菜單</span></a>
-                            <a class="nav-item nav-link mr-lg-5 product text-lg-center allrelative" href="#">
-                                <span class="en4 allen">PRODUCT</span>
-                                <span class="ch4 allch">產品</span>
-                            </a>
-                            <a class="nav-item nav-link mr-lg-5 news text-lg-center allrelative" href="#">
-                                <span class="en5 allen">NEWS</span>
-                                <span class="ch5 allch">最新消息</span>
-                            </a>
-                            <a class="nav-item nav-link mr-lg-5 store text-lg-center allrelative" href="#">
-                                <span class="en6 allen">STORE</span>
-                                <span class="ch6 allch">門市</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
 
-        </div>
-        <!-- <div class="swiper-container banner-container">
+            <!-- <div class="swiper-container banner-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img width="100%" src="雲道圖片/BANNER拷貝.png" alt=""></div>
                     <div class="swiper-slide"><img width="100%" src="雲道圖片/雲道.jpg" alt=""></div>
@@ -90,10 +54,52 @@
 
 
 
-
     </header>
 
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container navcontainer">
+            <a class="navbar-brand">
+                <a href="#top"><img width="63%" src="雲道圖片/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse justify-content-lg-around" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link ml-lg-5 mr-lg-5 story text-lg-center allrelative" href="#aboutall">
+                            <span class="en1 allen ">STORY</span>
+                            <span class="ch1 allch">雲道故事</span>
+                        </a>
+                        <a class="nav-item nav-link mr-lg-5 laisang text-lg-center allrelative" href="#laisang_story">
+                            <span class="en2 allen ">LAISANG</span>
+                            <span class="ch2 allch">賴桑故事</span>
+                        </a>
+                        <a class="nav-item nav-link mr-lg-5 process text-lg-center allrelative " href="#coffeemake">
+                            <span class="en3 allen">PROCESS</span>
+                            <span class="ch3 allch">咖啡製成</span>
+                        </a>
+                        <a class="nav-item nav-link mr-lg-5 menu text-lg-center allrelative" href="#menu">
+                            <span class="en4 allen">MENU</span>
+                            <span class="ch4 allch">菜單</span>
+                        </a>
+                        <a class="nav-item nav-link mr-lg-5 product text-lg-center allrelative" href="#">
+                            <span class="en5 allen">PRODUCT</span>
+                            <span class="ch5 allch">產品</span>
+                        </a>
+                        <a class="nav-item nav-link mr-lg-5 news text-lg-center allrelative" href="#">
+                            <span class="en6 allen">NEWS</span>
+                            <span class="ch6 allch">最新消息</span>
+                        </a>
+                        <a class="nav-item nav-link mr-lg-5 store text-lg-center allrelative" href="#">
+                            <span class="en7 allen">STORE</span>
+                            <span class="ch7 allch">門市</span>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </nav>
 
+    </div>
 
 
     <!-- 內容 / 關於雲道 -->
@@ -147,7 +153,7 @@
 
     <!-- 賴桑故事 -->
 
-    <div class="container-fluid p-0 laisang_story ">
+    <div id="laisang_story" class="container-fluid p-0">
         <div class="row laisang_row">
             <div class="col bookpic d-flex flex-row-reverse">
                 <img src="雲道圖片/book.png" alt="">
@@ -192,6 +198,8 @@
     </div>
 
     <!-- 咖啡製成 -->
+    <div id="coffeemake"></div>
+    <!--假錨點 -->
 
     <div class="container-fluid coffeemake-bg ">
         <div class="container coffeemake-all">
@@ -267,7 +275,7 @@
     </div>
 
     <!-- 菜單 -->
-
+    <div id="menu"></div>
     <div class="container-fluid p-0 menubg ">
         <div class="container menuall pt-5 ">
             <div class="row menu00 justify-content-center mb-5">
@@ -349,11 +357,12 @@
         }
 
         hoverHandler(".story", ".ch1", ".en1")
-        hoverHandler(".process", ".ch2", ".en2")
-        hoverHandler(".menu", ".ch3", ".en3")
-        hoverHandler(".product", ".ch4", ".en4")
-        hoverHandler(".news", ".ch5", ".en5")
-        hoverHandler(".store", ".ch6", ".en6")
+        hoverHandler(".laisang", ".ch2", ".en2")
+        hoverHandler(".process", ".ch3", ".en3")
+        hoverHandler(".menu", ".ch4", ".en4")
+        hoverHandler(".product", ".ch5", ".en5")
+        hoverHandler(".news", ".ch6", ".en6")
+        hoverHandler(".store", ".ch7", ".en7")
 
 
         var swiper = new Swiper('.banner-container', {
