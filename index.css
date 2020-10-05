@@ -6,9 +6,10 @@
                 body {
                     /* overflow-x: hidden; */
                     background-color: black;
+                   
                 }
                 
-                
+           
 
                 @font-face {
                     font-family: style1;
@@ -52,15 +53,15 @@
                     color: white;
                 }
                 
-                .banner {
+                /* .banner {
                     position: relative;
                 }
-                
+                 */
                 .navbar {
                     width: 100%;
                     background-color: rgba(88, 83, 83, 0.4);
                     z-index: 1;
-                    position: absolute;
+                    /* position: absolute; */
                     left: 0;
                     bottom: 0;
                     position: sticky;
@@ -160,12 +161,11 @@
                     background-image: url(雲道圖片/賴桑圖片背景.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
-                    width: 100vw;
                     height: 950px;
                     display: flex;
                     align-content: center;
                     
-                    margin-left: 0px;
+                 
                     
                 }
                 
@@ -311,7 +311,7 @@
                 }
                 
                 .menubg {
-                    height: 1000px;
+                    height: 1980px;
                     width: 100%;
                     background-color: #1A1A1A;
                 }
@@ -341,4 +341,68 @@
                     color: white;
                     background-color: #1A1A1A;
                     font-size: 12px;
+                    border: 2px solid black;
+                    border-top: 0;
+                }
+
+                .menu03{
+                    width: 100%;
+                    color: white;
+                    background-color: #1A1A1A;
+                    font-size: 12px;
+                    border: 2px solid black;
+                    border-top: 0;
+                }
+
+                .meals02{
+                    padding-top: 7%;
+                }
+                .meals03{
+                    padding-top: 9%;
+                }
+                .meals04{
+                    padding-top: 4%;
+                }
+                .meals05{
+                    padding-top: 6%;
+                }
+
+                .menu04{
+                    width: 100%;
+                    color: white;
+                    background-color: #1A1A1A;
+                    font-size: 12px;
+                    border: 2px solid black;
+                    border-top: 0;
+                    border-bottom: 0;
+                }
+
+                .menu05{
+                    width: 100%;
+                    color: white;
+                    background-color: #1A1A1A;
+                    font-size: 12px;
+                    border: 2px solid black;
+                    border-top: 0;
+                    border-bottom: 0;
+                }
+
+                .menu06{
+                    width: 100%;
+                    color: white;
+                    background-color: #1A1A1A;
+                    font-size: 12px;
+                    border: 2px solid black;
+                    border-top: 0;
+                    border-bottom: 0;
+                }
+
+
+                .coffeeimg{
+                    width: 100%;
+                    color: white;
+                    background-color: #1A1A1A;
+                    font-size: 12px;
+                    border: 2px solid black;
+                    border-top: 0;
                 }
