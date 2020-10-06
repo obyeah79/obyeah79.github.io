@@ -2,42 +2,41 @@
                     box-sizing: border-box;
                     margin: 0;
                 }
-
+                
                 body {
                     /* overflow-x: hidden; */
                     background-color: black;
-
                 }
-
+                
                 .container-fluid {
                     padding: 0;
                 }
-
+                
                 .row {
                     margin-right: 0px;
                     margin-left: 0;
                 }
-
+                
                 @font-face {
                     font-family: style1;
                     src: url(/字形/HanaMinB.ttf);
                 }
-
+                
                 @font-face {
                     font-family: style2;
                     src: url(/字形/華康雅風體/華康雅風體W3.TTC);
                 }
-
+                
                 .navbar-nav {
                     width: 100%;
                     justify-content: space-evenly;
                 }
-
+                
                 .allrelative {
                     position: relative;
                     width: 100%;
                 }
-
+                
                 .allen {
                     position: absolute;
                     top: 0;
@@ -48,7 +47,7 @@
                     opacity: 1;
                     color: white;
                 }
-
+                
                 .allch {
                     position: absolute;
                     top: 0;
@@ -59,11 +58,11 @@
                     opacity: 0;
                     color: white;
                 }
-
                 /* .banner {
                     position: relative;
                 }
                  */
+                
                 .navbar {
                     width: 100%;
                     background-color: rgba(88, 83, 83, 0.4);
@@ -74,30 +73,29 @@
                     position: sticky;
                     top: 0;
                 }
-
                 /* 關於雲道 */
-
+                
                 .story_row {
                     background-color: black;
                     position: relative;
                 }
-
+                
                 #pic1 {
                     position: absolute;
                     bottom: 15%;
                     left: 23%;
                 }
-
+                
                 #pic2 {
                     position: absolute;
                     bottom: 5%;
                     right: 25%;
                 }
-
+                
                 .tab-pane {
                     height: 320px;
                 }
-
+                
                 .tab-content {
                     text-align: center;
                     color: white;
@@ -105,90 +103,86 @@
                     font-size: 18px;
                     font-family: style1;
                 }
-
+                
                 #v-pills-tab {
                     font-family: style1;
                 }
-
+                
                 .story_container {
                     text-align: center;
                     position: relative;
                     padding-right: 11%;
                 }
-
+                
                 .nav-link-about {
                     width: 40px;
                     color: rgb(122, 122, 122);
                     font-size: 12px;
                     padding: .3rem 0.5rem;
                 }
-
+                
                 .nav-link-about:hover {
                     transition: 0.5s;
                 }
-
+                
                 .nav-pills .nav-link {
                     border-radius: 0;
                 }
-
+                
                 .nav-pills .nav-link.active,
                 .nav-pills .show>.nav-link {
                     background-color: black;
                     border-bottom: 1.5px solid snow;
                 }
-
+                
                 .about-bottom {
                     display: flex;
                     align-items: center;
                     justify-items: center;
                 }
-
+                
                 .tab-pane {
                     display: flex;
                     align-items: center;
                     width: 100%;
                 }
-
+                
                 .about_col11 {
                     padding-left: 0px;
                     margin-top: 80px;
                 }
-
+                
                 h1 {
                     font-size: 75px;
                     color: rgb(255, 255, 255);
                 }
-
+                
                 @media(max-width:1024px) {
                     .story_container {
                         padding-right: 8%;
                     }
                 }
-
+                
                 @media(max-width:576px) {
                     .story_container {
                         padding-right: 2%;
                     }
-
                     .about-bottom {
                         padding-left: 0px;
                     }
-
                     #pic1 {
                         bottom: 4%;
                         left: 9%;
                         width: 16%;
                     }
-
                     #pic2 {
                         bottom: 1%;
                         right: 5%;
                         width: 20%;
                     }
                 }
-
                 /* laisang-story */
-
+                
                 .laisang_row {
                     background-image: url(雲道圖片/賴桑圖片背景.jpg);
                     background-size: cover;
@@ -196,190 +190,178 @@
                     height: 950px;
                     display: flex;
                     align-content: center;
-
-
                 }
-
+                
                 .bookh1 {
                     font-size: 2.5vw;
                     color: white;
-
                     text-shadow: rgb(112, 109, 109) 0.1em 0.1em 0.2em;
                 }
-
-                .bookcentent{
+                
+                .bookcentent {
                     text-shadow: rgb(112, 109, 109) 0.1em 0.1em 0.2em;
                 }
+                
                 .booktext {
                     line-height: 30px;
                     font-size: 17px;
                     align-self: center;
                     color: black;
-                    
                 }
-                
-                
-
                 /*更改按鈕樣式*/
-
+                
                 .btn-primary {
                     background-color: #C7AC9E;
                     border-color: #C7AC9E;
                 }
-
+                
                 .btn-primary:hover {
                     background-color: #C7AC9E;
                     border-color: #C7AC9E;
                 }
-
+                
                 .btn.focus,
                 .btn:focus {
                     outline: 0;
                     box-shadow: none;
                 }
-
+                
                 .btn-primary.focus,
                 .btn-primary:focus {
                     color: #fff;
                     background-color: #C7AC9E;
                     border-color: #C7AC9E;
                 }
-
+                
                 .btn-primary:not(:disabled):not(.disabled).active,
                 .btn-primary:not(:disabled):not(.disabled):active,
                 .show>.btn-primary.dropdown-toggle {
                     background-color: #C7AC9E;
                     border-color: #C7AC9E;
                 }
-
+                
                 .booktitle {
                     font-weight: 600;
                 }
-
+                
                 .modal-header {
                     background-color: #C7AC9E;
                     color: white;
                     border-top-left-radius: 2rem;
                     border-top-right-radius: 2rem;
                 }
-
+                
                 .modal-content {
                     border: 0;
                     border-radius: 2rem;
                 }
-
+                
                 .btn-secondary {
                     color: #fff;
                     background-color: #C7AC9E;
                     border-color: white;
                 }
-
                 /* 咖啡製成*/
-
+                
                 #coffeemake {
                     width: 100%;
                     height: 280px;
                     background-color: white;
                     position: relative;
                 }
-
-                .coffeeprocess {                    
+                
+                .coffeeprocess {
                     font-size: 3vw;
                     font-family: 'Segoe Script';
                     position: absolute;
-                    left:6%;
+                    left: 6%;
                     bottom: 35%;
-                    
                 }
-
+                
                 .coffeemake-bg {
                     background-color: white;
-                    
                 }
-
-
+                
                 .coffeemake-all {
                     height: 100%;
                     background-color: white;
                 }
-
+                
                 .h01 {
                     color: red;
                 }
-
+                
                 .h02 {
                     color: #DFA22D;
                 }
-
+                
                 .h03 {
                     color: #66C5DF;
                 }
-
+                
                 .h04 {
                     color: #945A27;
                 }
-
+                
                 .left01 {
                     float: left;
                     clear: both;
                 }
-
+                
                 .left02 {
                     float: left;
                     clear: both;
                 }
-
+                
                 .left03 {
                     float: left;
                     clear: both;
                 }
-
+                
                 .left04 {
                     float: left;
                     clear: both;
                 }
-
+                
                 .right01 {
                     float: left;
                 }
-
+                
                 .right02 {
                     float: left;
                     position: relative;
                 }
-
+                
                 .right03 {
                     float: left;
                 }
-
+                
                 .right04 {
                     float: left;
                 }
-
+                
                 .text02pic {
                     position: absolute;
                     right: 15px;
                     top: 160px;
                 }
-
+                
                 h4 {
                     font-weight: 600;
                 }
-
                 /* 菜單 */
-
+                
                 #menutab {
                     width: 100%;
                     height: 110px;
                     background-color: white;
                 }
-
+                
                 .menubg {
-
                     width: 100%;
                     background-color: #1A1A1A;
                 }
-
+                
                 .menu00 {
                     width: 100%;
                     color: white;
@@ -387,7 +369,7 @@
                     background-color: #1A1A1A;
                     float: left;
                 }
-
+                
                 .menu01 {
                     width: 100%;
                     color: white;
@@ -395,7 +377,7 @@
                     font-size: 12px;
                     border: 2px solid black;
                 }
-
+                
                 .menu02 {
                     width: 100%;
                     color: white;
@@ -404,7 +386,7 @@
                     border: 2px solid black;
                     border-top: 0;
                 }
-
+                
                 .menu03 {
                     width: 100%;
                     color: white;
@@ -413,23 +395,23 @@
                     border: 2px solid black;
                     border-top: 0;
                 }
-
+                
                 .meals02 {
                     padding-top: 7%;
                 }
-
+                
                 .meals03 {
                     padding-top: 9%;
                 }
-
+                
                 .meals04 {
                     padding-top: 4%;
                 }
-
+                
                 .meals05 {
                     padding-top: 6%;
                 }
-
+                
                 .menu04 {
                     width: 100%;
                     color: white;
@@ -439,7 +421,7 @@
                     border-top: 0;
                     border-bottom: 0;
                 }
-
+                
                 .menu05 {
                     width: 100%;
                     color: white;
@@ -449,7 +431,7 @@
                     border-top: 0;
                     border-bottom: 0;
                 }
-
+                
                 .menu06 {
                     width: 100%;
                     color: white;
@@ -459,8 +441,7 @@
                     border-top: 0;
                     border-bottom: 0;
                 }
-
-
+                
                 .coffeeimg {
                     width: 100%;
                     height: 100%;
@@ -470,27 +451,25 @@
                     border: 2px solid black;
                     border-top: 0;
                 }
-
                 /* 產品 */
-
-
+                
                 #productbg {
                     background-color: white;
                     position: relative;
                     height: 100%;
                 }
-
+                
                 .coffeebeanpic {
                     position: absolute;
                     right: 0;
                     bottom: 0;
                 }
-
+                
                 .productcentent {
                     padding-top: 12%;
                     padding-bottom: 10%;
                 }
-
+                
                 .coffeebeans {
                     position: absolute;
                     top: 9%;
@@ -498,8 +477,7 @@
                     font-size: 3vw;
                     font-family: 'Segoe Script';
                 }
-
-
+                
                 .circlebg {
                     width: 180px;
                     height: 180px;
@@ -508,42 +486,40 @@
                     margin: 20px 0;
                     position: relative;
                 }
-
-
+                
                 .beanspic {
                     position: absolute;
                     left: 20.5%;
                     top: -14%;
                     transform: rotate(13deg);
                 }
-
+                
                 .beanspic:hover {
                     transform: rotate(0deg);
                     transition: 0.2s;
                 }
-
+                
                 .beanspic:active {
                     transform: rotate(0deg);
                     transition: 0.2s;
                 }
-
+                
                 .beansname {
                     font-size: 21px;
                     /* font-weight: 600; */
                 }
-
+                
                 .beansprice {
                     color: red;
                     font-size: 18px;
                     font-weight: 600;
                 }
-
-                .detailspos{
+                
+                .detailspos {
                     position: relative;
-                    
                 }
-
-                .details1{
+                
+                .details1 {
                     text-align: center;
                     position: absolute;
                     top: -60%;
@@ -552,8 +528,8 @@
                     background-color: rgb(165, 46, 42);
                     z-index: 1;
                 }
-
-                .details2{
+                
+                .details2 {
                     text-align: center;
                     position: absolute;
                     top: -60%;
@@ -562,7 +538,8 @@
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
                 }
-                .details3{
+                
+                .details3 {
                     text-align: center;
                     position: absolute;
                     top: -60%;
@@ -571,7 +548,8 @@
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
                 }
-                .details4{
+                
+                .details4 {
                     text-align: center;
                     position: absolute;
                     bottom: -60%;
@@ -580,7 +558,8 @@
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
                 }
-                .details5{
+                
+                .details5 {
                     text-align: center;
                     position: absolute;
                     bottom: -60%;
@@ -589,8 +568,8 @@
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
                 }
-
-                .details6{
+                
+                .details6 {
                     text-align: center;
                     position: absolute;
                     bottom: -60%;
