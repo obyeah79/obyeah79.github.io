@@ -200,9 +200,25 @@
 
                 }
 
+                .bookh1 {
+                    font-size: 2.5vw;
+                    color: white;
+
+                    text-shadow: rgb(112, 109, 109) 0.1em 0.1em 0.2em;
+                }
+
+                .bookcentent{
+                    text-shadow: rgb(112, 109, 109) 0.1em 0.1em 0.2em;
+                }
                 .booktext {
                     line-height: 30px;
+                    font-size: 17px;
+                    align-self: center;
+                    color: black;
+                    
                 }
+                
+                
 
                 /*更改按鈕樣式*/
 
@@ -262,13 +278,25 @@
 
                 #coffeemake {
                     width: 100%;
-                    height: 120px;
+                    height: 280px;
                     background-color: white;
+                    position: relative;
+                }
+
+                .coffeeprocess {                    
+                    font-size: 3vw;
+                    font-family: 'Segoe Script';
+                    position: absolute;
+                    left:6%;
+                    bottom: 35%;
+                    
                 }
 
                 .coffeemake-bg {
                     background-color: white;
+                    
                 }
+
 
                 .coffeemake-all {
                     height: 100%;
@@ -445,6 +473,7 @@
 
                 /* 產品 */
 
+
                 #productbg {
                     background-color: white;
                     position: relative;
@@ -464,8 +493,8 @@
 
                 .coffeebeans {
                     position: absolute;
-                    top: 10%;
-                    left: 7%;
+                    top: 9%;
+                    left: 6.5%;
                     font-size: 3vw;
                     font-family: 'Segoe Script';
                 }
@@ -480,32 +509,93 @@
                     position: relative;
                 }
 
-               
-                .beanspic{
+
+                .beanspic {
                     position: absolute;
-                    left:20.5%;
-                    top:-14%;
-                    transform:rotate(13deg);
+                    left: 20.5%;
+                    top: -14%;
+                    transform: rotate(13deg);
                 }
 
-                .beanspic:hover{
-                    transform:rotate(0deg);
+                .beanspic:hover {
+                    transform: rotate(0deg);
                     transition: 0.2s;
-                } 
+                }
 
-                .beanspic:active{
-                    transform:rotate(0deg);
+                .beanspic:active {
+                    transform: rotate(0deg);
                     transition: 0.2s;
-                } 
+                }
 
-                .beansname{
+                .beansname {
                     font-size: 21px;
                     /* font-weight: 600; */
                 }
 
-                .beansprice{
+                .beansprice {
                     color: red;
                     font-size: 18px;
                     font-weight: 600;
+                }
+
+                .detailspos{
+                    position: relative;
                     
+                }
+
+                .details1{
+                    text-align: center;
+                    position: absolute;
+                    top: -60%;
+                    width: 80%;
+                    height: 50%;
+                    background-color: rgb(165, 46, 42);
+                    z-index: 1;
+                }
+
+                .details2{
+                    text-align: center;
+                    position: absolute;
+                    top: -60%;
+                    width: 80%;
+                    height: 50%;
+                    background-color: rgb(153, 165, 42);
+                    z-index: 1;
+                }
+                .details3{
+                    text-align: center;
+                    position: absolute;
+                    top: -60%;
+                    width: 80%;
+                    height: 50%;
+                    background-color: rgb(153, 165, 42);
+                    z-index: 1;
+                }
+                .details4{
+                    text-align: center;
+                    position: absolute;
+                    bottom: -60%;
+                    width: 80%;
+                    height: 50%;
+                    background-color: rgb(153, 165, 42);
+                    z-index: 1;
+                }
+                .details5{
+                    text-align: center;
+                    position: absolute;
+                    bottom: -60%;
+                    width: 80%;
+                    height: 50%;
+                    background-color: rgb(153, 165, 42);
+                    z-index: 1;
+                }
+
+                .details6{
+                    text-align: center;
+                    position: absolute;
+                    bottom: -60%;
+                    width: 80%;
+                    height: 50%;
+                    background-color: rgb(153, 165, 42);
+                    z-index: 1;
                 }
