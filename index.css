@@ -435,9 +435,56 @@
 
                 .coffeeimg {
                     width: 100%;
+                    height: 100%;
                     color: white;
                     background-color: #1A1A1A;
                     font-size: 12px;
                     border: 2px solid black;
                     border-top: 0;
                 }
+
+                /* 產品 */
+
+                #productbg {
+                    background-color: white;
+                    position: relative;
+                    height: 100%;
+                }
+
+                .coffeebeanpic {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+
+                .productcentent {
+                    padding-top: 12%;
+                    padding-bottom: 10%;
+                }
+
+                .coffeebeans {
+                    position: absolute;
+                    top: 10%;
+                    left: 7%;
+                    font-size: 3vw;
+                    font-family: 'Segoe Script';
+                }
+
+
+                .circlebg {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    background-color: #FF6B31;
+                    margin: 20px 0;
+                }
+
+                .beanspic:hover{
+                    transform:rotate(10deg);
+                    transition: 0.2s;
+                } 
+
+                .beanspic:active{
+                    transform:rotate(10deg);
+                    transition: 0.2s;
+                } 
