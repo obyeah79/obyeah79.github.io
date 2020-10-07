@@ -535,13 +535,38 @@
                 
                 .beanspic:hover {
                     transform: rotate(0deg);
-                    transition: 0.2s;
+                    transition: 0.2s;              
                 }
                 
+                .circlebg:hover~.details1{
+                    display: block;
+                    transform: 1s;
+                }  
+
+                .circlebg:hover~.details2{
+                    display: block;
+                }  
+
+                .circlebg:hover~.details3{
+                    display: block;
+                }  
+
+                .circlebg:hover~.details4{
+                    display: block;
+                }  
+                .circlebg:hover~.details5{
+                    display: block;
+                }  
+
+                .circlebg:hover~.details6{
+                    display: block;
+                }  
+
                 .beanspic:active {
                     transform: rotate(0deg);
                     transition: 0.2s;
                 }
+                
                 
                 .beansname {
                     font-size: 21px;
@@ -566,7 +591,10 @@
                     height: 50%;
                     background-color: rgb(165, 46, 42);
                     z-index: 1;
+                    display: none;
                 }
+
+                
                 
                 .details2 {
                     text-align: center;
@@ -576,6 +604,7 @@
                     height: 50%;
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
+                    display: none;
                 }
                 
                 .details3 {
@@ -586,6 +615,7 @@
                     height: 50%;
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
+                    display: none;
                 }
                 
                 .details4 {
@@ -596,6 +626,7 @@
                     height: 50%;
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
+                    display: none;
                 }
                 
                 .details5 {
@@ -606,6 +637,7 @@
                     height: 50%;
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
+                    display: none;
                 }
                 
                 .details6 {
@@ -616,4 +648,5 @@
                     height: 50%;
                     background-color: rgb(153, 165, 42);
                     z-index: 1;
+                    display: none;
                 }
