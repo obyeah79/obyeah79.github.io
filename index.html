@@ -463,7 +463,7 @@
                     <div class="circlebg text-center">
                         <img class="beanspic3" width="105px" src="雲道圖片/產品/LaiSang480拷貝.png">
                     </div>
-                    <div class="details3">~香濃滑順~</div>
+                    <div class="details3">黑巧克力、漬果甜滋味<br>濃郁厚實焦糖香<br>Body強回甘度特別高<br>特別適合加入牛奶飲用</div>
                 </div>
             </div>
 
@@ -488,7 +488,7 @@
                     <div class="circlebg text-center">
                         <img class="beanspic4" width="100px" src="雲道圖片/產品/耶加日曬450拷貝.png">
                     </div>
-                    <div class="details4">~香濃滑順~</div>
+                    <div class="details4">熱帶水果香<br>層次豐富多變漬果甜<br>明亮溫和水果酸橙<br>帶出香檳葡萄口感</div>
                 </div>
 
                 <div class="col-3 prd-center d-flex justify-content-center">
@@ -496,7 +496,7 @@
                     <div class="circlebg text-center">
                         <img class="beanspic5" width="105px" src="雲道圖片/產品/哥倫比亞360拷貝.png">
                     </div>
-                    <div class="details5">~香濃滑順~</div>
+                    <div class="details5">柑橘香氣、紅砂糖<br>堅果、櫻桃巧克力<br>口感滑順 、甜感均衡</div>
                 </div>
 
                 <div class="col-3 prd-bot d-flex justify-content-center">
@@ -504,7 +504,7 @@
                     <div class="circlebg text-center">
                         <img class="beanspic6" width="100px" src="雲道圖片/產品/曼巴380拷貝.png">
                     </div>
-                    <div class="details6">~香濃滑順~</div>
+                    <div class="details6">奶油巧克力、烤堅果<br>奶油質地、甜藥草<br>濃郁甘甜</div>
                 </div>
             </div>
             <br>
@@ -587,52 +587,37 @@
 
 
 
-        // 產品點擊消失擊隱藏 //
+        // 產品點擊消失及隱藏 //
+
+        function showDetail(className) {
+            if ($(className).css("display") == "none") {
+                $(className).show();
+            } else {
+                $(className).hide();
+            }
+        }
 
         $(".beanspic1").click(function () {
-            if ($(".details1").css("display") == "none") {
-                $(".details1").show();
-            } else {
-                $(".details1").hide();
-            }
+            showDetail(".details1");
         });
 
         $(".beanspic2").click(function () {
-            if ($(".details2").css("display") == "none") {
-                $(".details2").show();
-            } else {
-                $(".details2").hide();
-            }
+            showDetail(".details2");
         });
-
         $(".beanspic3").click(function () {
-            if ($(".details3").css("display") == "none") {
-                $(".details3").show();
-            } else {
-                $(".details3").hide();
-            }
+            showDetail(".details3");
         });
         $(".beanspic4").click(function () {
-            if ($(".details4").css("display") == "none") {
-                $(".details4").show();
-            } else {
-                $(".details4").hide();
-            }
+            showDetail(".details4");
         });
         $(".beanspic5").click(function () {
-            if ($(".details5").css("display") == "none") {
-                $(".details5").show();
-            } else {
-                $(".details5").hide();
-            }
+            showDetail(".details5");
         });
         $(".beanspic6").click(function () {
-            if ($(".details6").css("display") == "none") {
-                $(".details6").show();
-            } else {
-                $(".details6").hide();
-            }
+            showDetail(".details6");
         });
+
+        
 
 
 

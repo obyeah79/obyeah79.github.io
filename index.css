@@ -658,7 +658,8 @@
                     top: -60%;
                     width: 80%;                    
                     border-radius: 10px;
-                    background-color: rgb(224, 151, 15);
+                    background-color: #BA542C;
+                    color: white;
                     z-index: 1;
                     display: none;
                 }
@@ -666,21 +667,23 @@
                 .details4 {
                     text-align: center;
                     position: absolute;
-                    bottom: -60%;
+                    bottom: -50%;
                     width: 80%;
-                    height: 50%;
-                    background-color: rgb(153, 165, 42);
+                    border-radius: 10px;
+                    color: white;                    
                     z-index: 1;
                     display: none;
+                    background-color: #093B30;
                 }
 
                 .details5 {
                     text-align: center;
                     position: absolute;
-                    bottom: -60%;
+                    bottom: -40%;
                     width: 80%;
-                    height: 50%;
-                    background-color: rgb(153, 165, 42);
+                    border-radius: 10px;      
+                    color: white;                
+                    background-color: #B9763F;
                     z-index: 1;
                     display: none;
                 }
@@ -688,10 +691,11 @@
                 .details6 {
                     text-align: center;
                     position: absolute;
-                    bottom: -60%;
+                    bottom: -40%;
                     width: 80%;
-                    height: 50%;
-                    background-color: rgb(153, 165, 42);
+                    border-radius: 10px;
+                    color: white;   
+                    background-color:#3E0C0D;
                     z-index: 1;
                     display: none;
                 }
