@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<style>
+  body {
+
+    margin: 0;
+
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+  }
+</style>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig1.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig2.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig3.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig4.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig5.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig6.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig7.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig8.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig9.png)"></div>
+      <div class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig10.png)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <!--<div class="swiper-pagination"></div> 點點-->
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      loop: true,
+      grabCursor: true,
+      centeredSlides: false,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 4,  //摺疊角度
+        stretch: 4, //物件重疊的範圍
+        depth: 70, //物件突出
+        modifier: 1, //物件彎度
+        slideShadows: true,
+
+
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+
+</html>
