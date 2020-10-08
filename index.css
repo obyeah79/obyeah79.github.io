@@ -844,5 +844,12 @@
                  .footercol{
                     justify-content: center!important;
                     text-align: center;
+                    margin-bottom: 10px;
                  }
+
+                 .rowall {
+                    
+                    bottom: 0px;
+                    
+                }
                 }
