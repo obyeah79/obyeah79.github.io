@@ -36,6 +36,7 @@
                     background-color: #000;
                 }
 
+
                 .banner>img {
                     background-position: cover;
                     position: absolute;
@@ -65,11 +66,7 @@
                     }
                 }
 
-                @media(max-width:576px) {
-                    .banner>img {
-                        height: 100vh;
-                    }
-                }
+
 
                 .navbar-nav {
                     width: 100%;
@@ -103,16 +100,13 @@
                     color: white;
                 }
 
-                /* .banner {
-                    position: relative;
-                }
-                 */
+
 
                 .navbar {
                     width: 100%;
                     background-color: rgba(88, 83, 83, 0.4);
-                    z-index: 1;
-                    /* position: absolute; */
+                    z-index: 2;
+
                     left: 0;
                     bottom: 0;
                     position: sticky;
@@ -203,33 +197,8 @@
                     color: rgb(255, 255, 255);
                 }
 
-                @media(max-width:1024px) {
-                    .story_container {
-                        padding-right: 8%;
-                    }
-                }
 
-                @media(max-width:576px) {
-                    .story_container {
-                        padding-right: 2%;
-                    }
 
-                    .about-bottom {
-                        padding-left: 0px;
-                    }
-
-                    #pic1 {
-                        bottom: 4%;
-                        left: 9%;
-                        width: 16%;
-                    }
-
-                    #pic2 {
-                        bottom: 1%;
-                        right: 5%;
-                        width: 20%;
-                    }
-                }
 
                 /* laisang-story */
 
@@ -243,7 +212,7 @@
                 }
 
                 .bookh1 {
-                    font-size: 2.5vw;
+                    font-size: 50px;
                     color: white;
                     text-shadow: rgb(112, 109, 109) 0.1em 0.1em 0.2em;
                 }
@@ -257,6 +226,7 @@
                     font-size: 17px;
                     align-self: center;
                     color: black;
+                    text-align: left;
                 }
 
                 /*更改按鈕樣式*/
@@ -702,6 +672,10 @@
                     display: none;
                 }
 
+
+
+
+
                 /* 最新消息 */
 
                 #news {
@@ -746,24 +720,129 @@
                 /* ig輪播 */
                 #instagram {
                     background-color: white;
-                    height:700px;
+                    height: 750px;
                 }
 
 
                 .swiper-container {
                     background-color: white;
                     width: 100%;
-                   
-                    padding-top: 50px;
-                    padding-bottom: 50px;
+
                 }
 
                 .swiper-slide {
                     background-position: center;
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    width: 300px !important; 
+                    background-size: cover;
+                    width: 300px !important;
                     height: 300px !important;
 
 
+                }
+
+
+                /* 門市資訊 */
+                #storemap {
+                    height: 100vh;
+                    background-color: white;
+                }
+
+
+                /* footer */
+                .footerbg {
+                    width: 100%;
+                    height: 100vh;
+                    background-color: white;
+                    background-image: url(/雲道圖片/tree.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    color: white;
+                    position: relative;
+                }
+
+                .rowall {
+                    position: absolute;
+                    bottom: 30px;
+                    width: 100%;
+                }
+
+                .footerow1 {
+                    width: 100%;
+                }
+                .footerow2{
+                    width:100%;
+                }
+
+
+                @media(max-width:1024px) {
+                    .banner {
+                        height: 40vh;
+                    }
+
+                    /* 關於雲道 */
+                    .story_container {
+                        padding-right: 8%;
+                    }
+                }
+
+
+                @media(max-width:576px) {
+
+                    .banner {
+                        height: 25vh;
+                    }
+
+                    /* 關於雲道*/
+
+                    .story_container {
+                        padding-right: 2%;
+                    }
+
+                    .about-bottom {
+                        padding-left: 0px;
+                    }
+
+                    #pic1 {
+                        bottom: 4%;
+                        left: 9%;
+                        width: 16%;
+                    }
+
+                    #pic2 {
+                        bottom: 1%;
+                        right: 5%;
+                        width: 20%;
+                    }
+
+                    /* 賴桑故事 */
+                    .booktext {
+                        text-align: center;
+                    }
+
+                    .bookh1 {
+
+                        font-size: 35px;
+
+                    }
+
+
+                    /* 產品 */
+                    #productbg {
+                        display: none;
+                    }
+
+                    /* 最新消息 */
+                    .newsrow {
+                        flex-direction: column;
+                    }
+
+                    .newscol1 {
+                        margin-bottom: 5px;
+                    }
+
+                    /* footer */
+                 .footercol{
+                    justify-content: center!important;
+                    text-align: center;
+                 }
                 }
