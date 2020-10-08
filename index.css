@@ -6,8 +6,8 @@
                 body {
                     /* overflow-x: hidden; */
                     background-color: black;
-                    
-                    
+
+
                 }
 
                 .container-fluid {
@@ -744,4 +744,26 @@
                 }
 
                 /* ig輪播 */
-          
+                #instagram {
+                    background-color: white;
+                    height:700px;
+                }
+
+
+                .swiper-container {
+                    background-color: white;
+                    width: 100%;
+                   
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+
+                .swiper-slide {
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 300px !important; 
+                    height: 300px !important;
+
+
+                }

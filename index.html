@@ -18,20 +18,7 @@
         <div id="top" class="banner">
 
             <img width="100%" src="/雲道圖片/BANNER拷貝.png" alt="">
-            <img width="100%" src=" /雲道圖片/雲道.jpg " alt=" ">
-
-
-
-
-            <!-- <div class="swiper-container banner-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img width="100%" src="雲道圖片/BANNER拷貝.png" alt=""></div>
-                    <div class="swiper-slide"><img width="100%" src="雲道圖片/雲道.jpg" alt=""></div>
-
-                </div> -->
-            <!-- <div class="swiper-button-next banner-next"></div>
-                <div class="swiper-button-prev banner-prev"></div> 
-                <div class="swiper-pagination"></div>-->
+            <img width="100%" src=" /雲道圖片/雲道.jpg " alt=" ">           
         </div>
 
 
@@ -71,7 +58,7 @@
                         <span class="en5 allen">PRODUCT</span>
                         <span class="ch5 allch">產品</span>
                     </a>
-                    <a class="nav-item nav-link mr-lg-5 news text-lg-center allrelative" href="#">
+                    <a class="nav-item nav-link mr-lg-5 news text-lg-center allrelative" href="#news">
                         <span class="en6 allen">NEWS</span>
                         <span class="ch6 allch">最新消息</span>
                     </a>
@@ -532,7 +519,7 @@
     <div id="news" class="container-fluid d-flex align-items-center">
 
         <div class="container newsbg">
-            <img class="mb-1" width="70px" src="雲道圖片/newsicon.gif" alt="">
+            <img class="" width="70px" src="雲道圖片/newsicon.gif" alt="">
             <div class="row">
                 <div class="col newscol"><a href="https://udn.com/news/story/7325/4711253" style="text-decoration:none">
                         <div class="media align-items-center">
@@ -562,8 +549,24 @@
 
 
     <!-- instragram輪播 -->
-
-   
+    <!-- Swiper -->
+    <div id="instagram"class="container-fluid align-items-center text-center">
+        <img width="180px"src="/雲道圖片/輪播圖片/ig.png" >
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig1.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig2.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig3.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig4.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig5.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig6.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig7.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig8.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig9.png)"></div>
+            <div width="200px" class="swiper-slide" style="background-image:url(雲道圖片/輪播圖片/ig10.png)"></div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -586,7 +589,27 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-    <script>  
+    <script>
+
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            loop: true,
+            grabCursor: true,
+            centeredSlides: false,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 4,  //摺疊角度
+                stretch: 4, //物件重疊的範圍
+                depth: 60, //物件突出
+                modifier: 1, //物件彎度
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+
+
 
         function hoverHandler(navcontainer, css1, css2) {
             $(navcontainer).hover(function () {
@@ -605,7 +628,7 @@
         hoverHandler(".product", ".ch5", ".en5")
         hoverHandler(".news", ".ch6", ".en6")
         hoverHandler(".store", ".ch7", ".en7")
-         
+
 
 
         // 產品點擊消失及隱藏 //
