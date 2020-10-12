@@ -35,7 +35,10 @@
                 }
                 
                 .banner>img {
-                    background-position: cover;
+                    background-position: center;
+                    background-size: cover;
+                    width: 100%;
+                    height: 100%;
                     position: absolute;
                     animation: slide 10s infinite;
                     opacity: 0;
@@ -731,9 +734,8 @@
                 }
                 
                 @media(max-width:576px) {
-                    .banner {
-                        height: 25vh;
-                    }
+
+                                      
                     /* 關於雲道*/
                     .story_container {
                         padding-right: 2%;
@@ -758,6 +760,11 @@
                     .bookh1 {
                         font-size: 35px;
                     }
+                    /* 菜單 */
+                    .menubg{
+                        height: 4250px;
+                    }
+
                     /* 產品 */
                     .circlebg {
                         display: none;
