@@ -645,6 +645,7 @@
                     border-radius: 10px;
                     color: white;
                     background-color: #522f0e;
+                    z-index: 1;
                     display: none;
                 }
                 /* 最新消息 */
@@ -804,9 +805,53 @@
                     } */
 
                     /* 產品 */
+
                     .circlebg {
-                        display: none;
+                        width: 100%;
+                        height: 57px;
                     }
+
+                    .circlebg>img {
+                        width: 40px;
+                        position: absolute;
+                        left: 14%;
+                    }
+                    .details1 {                   
+                        font-size: 12px;
+                        top: -80%;
+                        width: 150%;
+                    }
+                    .details2 {                   
+                        font-size: 12px;
+                        top: -80%;
+                        width: 150%;
+                    }
+                    .details3 {                   
+                        font-size: 12px;
+                        top: -80%;
+                        width: 150%;
+                    }
+
+                    .details4 {                   
+                        font-size: 12px;
+                        bottom:-85%;
+                        width: 150%;
+                    }
+                    .details5 {                   
+                        font-size: 12px;
+                        bottom:-75%;
+                        width: 150%;
+                    }
+                    .details6 {                   
+                        font-size: 12px;
+                        bottom:-75%;
+                        width: 150%;
+                    }
+
+                    .col-3>span{
+                        font-size: 14px;
+                    }
+
                     /* 最新消息 */
 
                     #news {                        
