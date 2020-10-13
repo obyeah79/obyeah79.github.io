@@ -799,11 +799,8 @@
                     .bookh1 {
                         font-size: 35px;
                     }
-                    /* 菜單 */
-                    /* .menubg{
-                        height: 4250px;
-                    } */
-
+                 
+                   
                     /* 產品 */
 
                     .circlebg {
@@ -850,6 +847,7 @@
 
                     .col-3>span{
                         font-size: 14px;
+                        width:100%;
                     }
 
                     /* 最新消息 */
