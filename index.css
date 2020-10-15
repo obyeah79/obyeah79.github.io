@@ -885,17 +885,18 @@
                     .text04pic {
                         display: none;
                     }
+                    /* 菜單 */
                     .menu01 {
                         flex-direction: column;
                         height: 800px;
                     }
                     .menu02 {
                         flex-direction: column;
-                        height: 700px;
+                        height: 680px;
                     }
                     .menu03 {
                         flex-direction: column;
-                        height: 800px;
+                        height: 850px;
                     }
                     .menu04 {
                         flex-direction: column;
@@ -909,4 +910,5 @@
                         flex-direction: column;
                         height: 500px;
                     }
+
                 }
