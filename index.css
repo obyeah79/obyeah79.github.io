@@ -194,7 +194,7 @@
                     background-attachment: fixed;
                     background-size: cover;
                     background-repeat: no-repeat;
-                    height: 950px;
+                    height: 900px;
                     display: flex;
                     align-content: center;
                 }
@@ -489,6 +489,8 @@
                     margin: 20px 0;
                     position: relative;
                 }
+
+                
                 
                 .beanspic1 {
                     position: absolute;
@@ -585,7 +587,7 @@
                     border-radius: 10px;
                     background-color: rgb(165, 46, 42);
                     color: white;
-                    z-index: 1;
+                    z-index: 2;
                     display: none;
                 }
                 
@@ -597,7 +599,7 @@
                     border-radius: 10px;
                     background-color: rgb(153, 165, 42);
                     color: white;
-                    z-index: 1;
+                    z-index: 2;
                     display: none;
                 }
                 
@@ -609,7 +611,7 @@
                     border-radius: 10px;
                     background-color: #BA542C;
                     color: white;
-                    z-index: 1;
+                    z-index: 2;
                     display: none;
                 }
                 
@@ -620,7 +622,7 @@
                     width: 80%;
                     border-radius: 10px;
                     color: white;
-                    z-index: 1;
+                    z-index: 2;
                     display: none;
                     background-color: #093B30;
                 }
@@ -633,7 +635,7 @@
                     border-radius: 10px;
                     color: white;
                     background-color: #B9763F;
-                    z-index: 1;
+                    z-index: 2;
                     display: none;
                 }
                 
@@ -645,7 +647,7 @@
                     border-radius: 10px;
                     color: white;
                     background-color: #522f0e;
-                    z-index: 1;
+                    z-index: 2;
                     display: none;
                 }
                 /* 最新消息 */
@@ -792,8 +794,13 @@
 
                     .laisang_row{
                         background-attachment: unset;
+                        flex-direction: column;
+                        height: 600px;
                     }
-                    .booktext {
+                    .bookpic>img{
+                        height:100%;
+                    }
+                    .booktext { 
                         text-align: center;
                     }
                     .bookh1 {
@@ -807,6 +814,32 @@
                         width: 100%;
                         height: 57px;
                     }
+
+                    .circlebg{
+                        animation: twinkling 1s infinite ease-in-out;
+                        }
+                        .animated{
+                        -webkit-animation-duration: 1s;
+                        animation-duration: 1s;
+                        -webkit-animation-fill-mode: both;
+                        animation-fill-mode: both
+                        }
+                        @-webkit-keyframes twinkling{
+                        0%{
+                        opacity: 0.5;
+                        }
+                        100%{
+                        opacity: 1;
+                        }
+                        }
+                        @keyframes twinkling{
+                        0%{
+                        opacity: 0.8;
+                        }
+                        100%{
+                        opacity: 2;
+                        }
+                        }
 
                     .circlebg>img {
                         width: 40px;
